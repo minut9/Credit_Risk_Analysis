@@ -2,7 +2,7 @@
 ## **Purpose**
 The purpose of this analysis is to use Machine Learning to determine risks of applicates from a data set from LendingClub. This project is classified as “Supervied Learning” because the data includes labeled outcomes. To complete the analysis, adjustments to balance the unbalanced classifications from the given data set were made for more accurate predictions for higher accuracy scores. 
 
-### * *Tools/Machine Learning Algorithms* * 
+### *Tools/Machine Learning Algorithms* 
 * RandomOverSampler
 *	SMOTE
 *	ClusterCentroids
@@ -40,7 +40,7 @@ The SMOTE algorithm had a balanced accuracy score of 65.8% which is somewhat bet
 
 <img width="710" alt="Smote report" src="https://user-images.githubusercontent.com/86068655/156045552-2de1a520-a0a6-48f4-84e7-6c5c0052d5b9.png">
 
-### UnderSampling
+### **UnderSampling**
 #### Cluster Centroids algorithm
 This algorithms balanced score was lower than the oversamplings scores at 54.4%
 
@@ -53,7 +53,7 @@ This algorithms balanced score was lower than the oversamplings scores at 54.4%
 
 <img width="716" alt="CC report" src="https://user-images.githubusercontent.com/86068655/156046494-6490d365-9b82-4b60-b67a-162f76d4b39c.png">
 
-### Combination Sampling
+### **Combination Sampling**
 #### SMOTEENN
 (Synthetic Minority Oversampling Technique + Edited Nearest Neighbors) or SMOTEENN had a balanced accuracy score with was 64.8%
 
@@ -67,7 +67,7 @@ This algorithms balanced score was lower than the oversamplings scores at 54.4%
 <img width="722" alt="SMOTEENN report" src="https://user-images.githubusercontent.com/86068655/156047627-46793261-c25f-4fa7-9514-64f951342bb9.png">
 
 
-### Ensemble Classifiers to Predict Credit Risk
+### *Ensemble Classifiers to Predict Credit Risk*
 #### BalancedRandomForestClassifier 
 This algorithm brought the balanced accuracy score to 78.8%.
 
@@ -94,7 +94,7 @@ This algorithm had the best algorithm score of 93.1%.
 <img width="716" alt="Easy Ensemble report" src="https://user-images.githubusercontent.com/86068655/156048715-37ba9023-1432-4b6b-8418-3f2c59969836.png">
 
 
-## Summary
+## **Summary**
 After reviewing the results, it was clear that the EasyEnsembleClassifier Model had the best results with an accuracy score of 93.1 and a precision rate of 9% when predicitng high risk applicants. The recall rate was also the highest at 92% for high risk applicants as well as low risk applicants, 94%. This model is clearly the best model to choose because it has the best algorithm to assess credit risks when lending to applicants. 
 
 
