@@ -40,7 +40,7 @@ The SMOTE algorithm had a balanced accuracy score of 65.8% which is somewhat bet
 
 <img width="710" alt="Smote report" src="https://user-images.githubusercontent.com/86068655/156045552-2de1a520-a0a6-48f4-84e7-6c5c0052d5b9.png">
 
-### <**UnderSampling**>
+### <ins>**UnderSampling**</ins>
 #### Cluster Centroids algorithm
 This algorithms balanced score was lower than the oversamplings scores at 54.4%
 
@@ -53,7 +53,7 @@ This algorithms balanced score was lower than the oversamplings scores at 54.4%
 
 <img width="716" alt="CC report" src="https://user-images.githubusercontent.com/86068655/156046494-6490d365-9b82-4b60-b67a-162f76d4b39c.png">
 
-### <**Combination Sampling**>
+### <ins>**Combination Sampling**</ins>
 #### SMOTEENN
 (Synthetic Minority Oversampling Technique + Edited Nearest Neighbors) or SMOTEENN had a balanced accuracy score with was 64.8%
 
@@ -67,7 +67,7 @@ This algorithms balanced score was lower than the oversamplings scores at 54.4%
 <img width="722" alt="SMOTEENN report" src="https://user-images.githubusercontent.com/86068655/156047627-46793261-c25f-4fa7-9514-64f951342bb9.png">
 
 
-### <*Ensemble Classifiers to Predict Credit Risk*>
+### <ins>*Ensemble Classifiers to Predict Credit Risk*</ins>
 #### BalancedRandomForestClassifier 
 This algorithm brought the balanced accuracy score to 78.8%.
 
