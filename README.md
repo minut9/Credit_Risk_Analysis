@@ -15,7 +15,7 @@ Originally, the dataset had over 100,000 loan applicants in Q1 2019. After using
 
 <img width="378" alt="init balance of target values" src="https://user-images.githubusercontent.com/86068655/156027559-46083f97-864d-418e-99c7-614875270551.png">
 
-### <OverSampling>
+### <int>OverSampling
 #### RandomeOverSampler Model
 RandomeOverSampler Model found a balanced accuracy score of 64%
 
