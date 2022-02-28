@@ -3,19 +3,19 @@
 The purpose of this analysis is to use Machine Learning to determine risks of applicates from a data set from LendingClub. This project is classified as “Supervied Learning” because the data includes labeled outcomes. To complete the analysis, adjustments to balance the unbalanced classifications from the given data set were made for more accurate predictions for higher accuracy scores. 
 
 ### Tools/Machine Learning Algorithms 
-•	RandomOverSampler
-•	SMOTE
-•	ClusterCentroids
-•	SMOTEENN
-•	BalancedRandomForestClassifier
-•	EasyEnsembleClassifier
+* RandomOverSampler
+*	SMOTE
+*	ClusterCentroids
+*	SMOTEENN
+*	BalancedRandomForestClassifier
+* EasyEnsembleClassifier
 
 ## Results
 Originally, the dataset had over 100,000 loan applicants in Q1 2019. After using the loan status to determine if the application was considered "high" or "low" risk, the applicants who were classified as "current" or "loan status" were classified as "low risk", meaning the rest of the data was "high risk". By cleaning the data, this reduced the dataset to 68470 with nearly all applicants classified to "low risk"(99%).
 
 <img width="378" alt="init balance of target values" src="https://user-images.githubusercontent.com/86068655/156027559-46083f97-864d-418e-99c7-614875270551.png">
 
-### OverSampling
+### <OverSampling>
 #### RandomeOverSampler Model
 RandomeOverSampler Model found a balanced accuracy score of 64%
 
